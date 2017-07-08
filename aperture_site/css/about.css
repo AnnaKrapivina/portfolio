@@ -1,0 +1,102 @@
+.goals i{
+	display: block;
+	width: 34px;
+	height: 34px;
+	background-color: #252525;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 34px;
+	float: left;
+}
+
+.team i{
+	display:block;
+	width: 34px;
+	height: 34px;
+	background-color: #252525;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 34px;
+   	margin: auto;
+	transition: all 0.1s ease-in;
+}
+
+.team i:hover {
+	background-color: #285360;
+	color: white;
+}
+.goal {
+	margin-bottom: 20px;
+}
+.goals h5 {
+	font-size: 1em;
+	font-weight: bold;
+	padding-left: 44px;
+	margin-bottom: 15px;s
+}
+.goals p {
+	padding-left: 44px;
+}
+.team {
+	margin: auto;
+}
+.block_profile {
+	background: url(../img/about/wood_pattern.jpg);
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	
+}
+.block_profile img{
+	display:block;
+	width: 80%;
+	margin: 20px auto;
+}
+.block_profile h3 {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+.block_profile h4 {
+	font-size: 1em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #777;
+	margin-bottom: 20px;
+}
+.block_profile p {
+	min-height: 220px;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	padding: 20px;     
+}
+
+.profile_social{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.profile_social a
+{
+    float: left;
+    width: 25%;
+}
+
+@media screen and (max-width: 720px) {
+	.block_profile p {
+	min-height: 100px;
+	}
+}
+@media screen and (min-width: 721px) and (max-width: 990px) {
+	.block_profile p {
+	min-height: 200px;
+	}
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+	.block_profile p {
+	min-height: 265px;
+	}
+}

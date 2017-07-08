@@ -1,0 +1,114 @@
+.sidebar {
+    padding: 15px 0;
+    background: #fff; 
+}
+.sidebar p {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 0.9em;
+    line-height: 1.7em;
+    color: #818181;
+}
+.sidebar p.title {
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-weight: bold;
+    color: #484848;
+    font-size: 1.2em;
+}
+.cat_bl li a{
+    display: block;
+    padding: 15px;
+    padding-left: 25px;
+    color: #818181;
+    font-size: 1.1em;
+    transition: all 0.1s ease-in;
+}
+.cat_bl li a:hover,
+.cat_bl li a.current{
+    background-color: #285360;
+    color: #fff;
+}
+.cat_bl a .fa
+{
+   font-size: 1.25em;
+    padding-right: 10px;
+    transition: all 0.1s ease-in;
+}
+.cat_bl a:hover .fa,
+.cat_bl a.current .fa{
+    padding-left: 10px;
+}
+.sidebar .tags{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+.sidebar .tags li {
+    font-size: 0.9em;
+    color: #7e7e7e;
+    transition: all 0.1s ease-in;
+    background-color: #ddd;
+}
+.sidebar .tags li:hover {
+    background-color: #285360;
+    
+}
+sidebar .tags li:hover a {
+    color: #fff;
+}
+
+/*************    BLOG       ***************/
+.blog_block {
+    padding: 25px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.date {
+    height: 56px;
+    width: 56px;
+    background: #303030;
+    color: #fcfcfc;
+    text-align: center;
+    padding-top: 3px;
+    font-weight: bold;
+    float: left;
+    margin-right: 20px;
+}
+.numb {
+    font-size: 22px;
+}
+.month {
+    font-size: 12px;
+}
+.inf {
+    border-bottom: 1px solid #252525;
+    margin-bottom: 30px;
+}
+.art_header {
+    font-size: 1.4em;
+    color: #303030;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-bottom: 0;
+    margin-left: 80px;
+}
+.blog_block img {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+.btn {
+    background-color: #303030;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0%;
+    border: none;
+    transition: all 0.1s ease-in;
+}
+.btn:hover {
+    background-color: #285360;
+}

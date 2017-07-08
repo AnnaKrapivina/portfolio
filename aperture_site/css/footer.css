@@ -1,0 +1,68 @@
+.waves {
+    height: 20px;
+    background-image: url(../img/wave_bg.png);
+    background-repeat: repeat-x;
+}
+.footer_block {
+    color: #969696;
+    background-color: #252525;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+
+
+.fot_logo img{
+	margin-bottom: 10px;
+}
+.fot_title {
+	font-weight: bold;
+}
+.tags li{
+	display: inline-block;
+	float: left;
+	margin: 5px;
+	padding: 10px;
+	background-color: #555;
+     transition: all 0.1s ease-in;
+}
+.tags li:hover {
+    background-color: #285360;
+     
+}
+.tags li:hover a {
+    color: #fff;
+}
+.tags li a {
+    text-decoration: none;
+    color: #969696;
+    transition: all 0.3s ease-in;
+}
+.clear:after {
+	content: "";
+	display: table;
+	clear:both;
+}
+.fot_contacts i {
+	margin-right: 20px;
+}
+.fot_social i {
+	display: block;
+	width: 34px;
+	height: 34px;
+	background-color: #555;
+	border-radius: 50%;
+	line-height: 34px;
+	text-align: center;
+	float: left;
+	margin-right: 20px;
+	transition: all 0.1s ease-in;
+}
+.fot_social i:last-child{
+    margin-right: 0;
+}
+.fot_social i:hover {
+	background-color: #285360;
+	color: white;
+}
